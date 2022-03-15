@@ -1,0 +1,27 @@
+{
+  "name": "graphql-mongodb",
+  "version": "1.0.0",
+  "description": "Projeto de estudos do GraphQL com MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyukio/graphql-mongodb.git"
+  },
+  "author": "lyukio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyukio/graphql-mongodb/issues"
+  },
+  "homepage": "https://github.com/lyukio/graphql-mongodb#readme",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
